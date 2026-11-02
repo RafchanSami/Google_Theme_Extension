@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Neo Theme Studio - Cyber Developer",
+  "version": "1.0.0",
+  "description": "A live animated programming-themed new tab experience by Rafchan Sami.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}

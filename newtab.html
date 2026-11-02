@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b18">
+  <title>Neo Theme Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Rafchan Sami">
+      <span class="brand-mark">N<span>;</span></span>
+      <span><strong>NEO</strong> THEME STUDIO<small>DEVELOPER EDITION</small></span>
+    </a>
+    <div class="top-center"><span class="status-dot"></span> SYSTEM ONLINE <span class="top-divider">/</span> <span id="clock">--:--</span></div>
+    <div class="creator">CREATED BY <b>RAFCHAN SAMI</b></div>
+  </header>
+
+  <main id="home">
+    <div class="hero-tag"><span></span> YOUR NEXT TAB, YOUR DEV SPACE</div>
+    <h1>Rafchan<span>SAMI<span class="cursor">_</span></span></h1>
+    <p class="subtitle">Think in code. Create without limits.</p>
+
+    <form class="search-box" id="searchForm" autocomplete="off">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+      <input id="searchInput" type="text" placeholder="Search Google or enter a URL..." aria-label="Search Google or enter a URL" autofocus>
+      <span class="search-hint">ENTER ↵</span>
+    </form>
+
+    <section class="shortcuts" aria-label="Developer shortcuts">
+      <a class="shortcut" href="https://github.com/" target="_blank" rel="noreferrer"><span class="shortcut-icon github">⌘</span><span>GitHub</span></a>
+      <a class="shortcut" href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><span class="shortcut-icon vscode">‹›</span><span>VS Code</span></a>
+      <a class="shortcut" href="https://stackoverflow.com/" target="_blank" rel="noreferrer"><span class="shortcut-icon stack">S</span><span>Stack Overflow</span></a>
+      <a class="shortcut" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span class="shortcut-icon youtube">▶</span><span>YouTube</span></a>
+      <a class="shortcut" href="https://developer.mozilla.org/" target="_blank" rel="noreferrer"><span class="shortcut-icon mdn">{ }</span><span>MDN Docs</span></a>
+    </section>
+  </main>
+
+  <section class="code-panel" aria-label="Animated code preview">
+    <div class="panel-head"><span class="window-dots"><i></i><i></i><i></i></span><span>neo-theme-studio.js</span><span class="panel-live">● LIVE PREVIEW</span></div>
+    <div class="code-lines" aria-hidden="true">
+      <div><em>01</em><span class="purple">const</span> <span class="cyan">dream</span> = <span class="yellow">"big"</span>;</div>
+      <div><em>02</em><span class="purple">function</span> <span class="green">buildFuture</span>() {</div>
+      <div><em>03</em>&nbsp;&nbsp;<span class="purple">return</span> <span class="cyan">innovation</span> + <span class="cyan">creativity</span>;</div>
+      <div><em>04</em>}</div>
+      <div><em>05</em><span class="comment">// Keep learning. Keep building. ✦</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-left"><span class="pulse"></span> <span id="dateText">READY TO CREATE</span></div>
+    <div class="ticker" aria-label="Programming words animation"><div class="ticker-track"><span>&lt;/&gt; CODE</span><b>✦</b><span>{ } CREATE</span><b>✦</b><span>0101 INNOVATE</span><b>✦</b><span>BUILD</span><b>✦</b><span>DEBUG</span><b>✦</b><span>DEPLOY</span><b>✦</b><span>&lt;/&gt; CODE</span><b>✦</b><span>{ } CREATE</span><b>✦</b><span>0101 INNOVATE</span><b>✦</b><span>BUILD</span><b>✦</b><span>DEBUG</span><b>✦</b><span>DEPLOY</span><b>✦</b></div></div>
+    <button id="motionToggle" class="motion-toggle" type="button" aria-pressed="false" title="Pause or resume animations">Ⅱ PAUSE FX</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
