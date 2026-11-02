@@ -1,4 +1,4 @@
-NEO THEME STUDIO - CYBER DEVELOPER
+THEME STUDIO - CYBER DEVELOPER
 Created by Rafchan Sami
 
 INSTALLATION (Google Chrome / Microsoft Edge)
